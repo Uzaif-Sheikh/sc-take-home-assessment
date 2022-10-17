@@ -35,11 +35,11 @@ func GetAllFolders(req *FetchFolderRequest) (*FetchFolderResponse, error) {
 
 	/*
 
-		--|----------------------------------------------------------------|--
-		  |	 I had to change the implemention to pass the unit test,	   |
-		  |	 the problem was that when copying it stores the reference &   |
-		  |	 which only copy the same pointer in the array.				   |
-		--|----------------------------------------------------------------|--
+		--|-------------------------------------------------------------------|--
+		  |	 I had to change the implemention to pass the unit test,      |
+		  |	 the problem was that when copying it stores the reference&   |
+		  |	 which only copy the same pointer in the array.		      |
+		--|-------------------------------------------------------------------|--
 
 
 	f := []Folder{}
